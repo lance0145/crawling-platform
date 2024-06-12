@@ -1,0 +1,7 @@
+echo "node_modules" >> .gitignore
+echo "__pycache__" >> .gitignore
+git init
+git add .
+git commit -m "Initial commit"
+git remote add origin https://github.com/lance0145/crawling-platform.git
+git push -u origin master
